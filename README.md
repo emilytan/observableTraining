@@ -1,5 +1,5 @@
 # ObservableTraining
-Simple training on Subjects part 1; to understand the basics of Observables before jumping into Subjects
+In house training on Subjects part 1; to understand the basics of Observables before jumping into Subjects
 
 ## Development server
 Source code created in Angular 10. 
