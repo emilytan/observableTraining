@@ -1,0 +1,9 @@
+<h3>Employee Details</h3>
+<ul *ngFor="let employee of employees">
+  <li>Name: {{ employee.name }} ; Age: {{ employee.age }}</li>
+</ul>
+
+<button (click)= "subscribeGetEmp()">Subscribe</button>
+<button (click)= "unsubscribeGetEmp()">Unsubscribe</button>
+<br>
+<a [routerLink]="['/details']">Go to Details</a>
